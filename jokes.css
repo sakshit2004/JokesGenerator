@@ -1,0 +1,36 @@
+/* NAME: SAKSHIT SHARMA
+     FILE NAME: jokes.css
+     DATE: 2023-10-29
+     DESCRIPTION: code for design of the web page, display box and button */
+
+
+
+
+body {
+    text-align: center;
+    background: linear-gradient(rgb(241, 145, 145), rgb(126, 126, 224));
+    background-attachment: fixed;
+}
+
+h1, #jokeText, #authorName {
+    font-style: italic;
+}
+
+.JokeButton {
+    font-weight: bold;
+    background-color: rgb(80, 179, 179);
+    height: 40px;
+    width: 450px;
+}
+
+.joke {
+    background-color: aqua;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-bottom: 60px;
+    font-style: italic;
+}
